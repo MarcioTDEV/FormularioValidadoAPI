@@ -1,0 +1,70 @@
+*{
+    font-family: monospace;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 53, 53);
+    color: white;
+    padding-left: 20px;
+}
+
+header{
+    max-width: 1000px;
+    margin: 50px auto
+}
+.container{
+    max-width: 800px;
+    margin: 100px auto;
+    
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+form div{
+    flex: 0 0 300px;
+}
+
+input{
+    
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 250px;
+    padding: 5px;
+}
+.botao{
+    background-color: teal;
+    color: white;
+}
+.botao:active{
+    background-color: white;
+    color: teal;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+span{
+    visibility: hidden;
+    display: block;
+}
+
+.successInput {
+    border: 3px solid greenyellow;
+}
+.sucessSpan{
+    visibility: visible;
+    color: greenyellow;
+}
+
+.errorInput{
+    border: 3px solid rgb(255, 83, 83);
+}
+.errorSpan{
+    visibility: visible;
+    color: rgb(255, 81, 81);
+}
